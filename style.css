@@ -1,0 +1,147 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1400px;
+  height: 695px;
+  background-image: url("images/bg-image.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.tag {
+  width: 800px;
+  height: 220px;
+  background-image: url("images/white-bg.png");
+  position: absolute;
+  top: 140px;
+}
+
+.tag-container {
+  position: absolute;
+  top: 30px;
+  left: 290px;
+}
+
+.tag-container span {
+  font-size: 48px;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: -1px;
+}
+
+.tag-container p {
+  font-size: 32px;
+  color: #3f3f3f;
+  font-style: italic;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-container p {
+  margin-left: 10px;
+  font-size: 32px;
+  color: #3f3f3f;
+  font-style: italic;
+  margin-top: 33px;
+}
+
+.demo-container {
+  position: absolute;
+  bottom: 53px;
+  left: 280px;
+}
+
+.demo {
+  background-color: #fbfbfb;
+  width: 945px;
+  height: 105px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.demo-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.demo-left img {
+  margin-top: -1px;
+}
+
+.demo-left p {
+  color: white;
+}
+
+.first-text {
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: -78px;
+  margin-left: 35px;
+}
+
+.second-text {
+  font-size: 16px;
+  margin-left: 50px;
+}
+
+.demo-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.demo-right p {
+  font-size: 22px;
+  color: #6d6e70;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 70px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+input[type=text], select {
+  width: 180px;
+  border: 1px solid #dddddd;
+  padding: 4px;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+::placeholder {
+  color: #dddddd;
+}
+
+input[type=submit] {
+  background-color: #8bc540;
+  color: white;
+  border: 2px solid #6f973b;
+  padding: 4px;
+  width: 210px;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+.button {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+span {
+  color: #8bc540;
+}
